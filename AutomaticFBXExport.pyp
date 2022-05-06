@@ -108,6 +108,27 @@ class AutomaticFBXExport( plugins.CommandData ):
         documentBaseContainer = GetDocumentPluginData( doc )
         path = documentBaseContainer[ k.PATH_FOR_FBX ]
 
+
+
+        a = path
+        c = "/"
+        v = a.rfind(c)
+        strObj = a[0 : v+1 : ]
+
+
+
+        docc = c4d.documents.GetActiveDocument()
+
+        selection = docc.GetActiveObjects(0)
+
+        h = selection[0].GetName()
+
+        path = strObj + h + ".fbx"
+
+
+
+
+
         if path is None or path == "":
             gui.MessageDialog( "Please specifiy a path for your FBX export." )
             return True
