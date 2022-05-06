@@ -1,4 +1,4 @@
-# I JUST CHANGED THE CODE SO IT SAVES THE FBX BY ACTIVE OBJECTS NAME. THE ORGINAL ONE SAVES BBY DOCUMENT NAME
+# I Just Changed the Code so it Saves the fbx by Active Objects Name. the Orginal one saves by doc name.
 
 # Automatic FBX Export for Cinema 4D
 
